@@ -1,29 +1,88 @@
-<html>
-<head>
-  <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-  <header>dogs</header>
-  <h1>Німецька вівчарка</h1>
-    <main><p>Німецька вівчарка — порода собак, виведена у Німеччині в 1899 році. Породу вивели спеціально для догляду за вівцями, тому собаку й називають вівчаркою.</p>
-    <p>Собака свійський
-Тварина
-Пес сві́йський або соба́ка сві́йський — культигенна тварина. Термін застосовують як для домашніх, так і для бездомних тварин. Свійський пес був одним з найбільш широко застосовуваних службових та компанійських тварин протягом всієї історії людства.</p>
-<img class="pic" src="https://6kcmxu3d7l.a.trbcdn.net/upload/files-new/e1/92/f0/562588_270x270.jpg" width="500px"
-  height="400px"/>
-    <h2> Плюси Німецької вівчарки</h2>
-    <p class="pic1">
-добре піддається дресируванню, навчанням різним командам; невибагливі, невибагливі до умов утримання, швидко пристосовуються до нових умов; мають добре розвинені охоронні якості; неконфліктні, не виявляють безпричинної агресії до сторонніх людей, собак.<p/></main>
-    <h3>
-Як німецька вівчарка ставиться до господаря?</h3>
-    <p class="pic2">дуже доброзичлива до господарів, але водночас насторожено ставиться до незнайомців. Але якщо ви завоюєте її довіру, то собака стане для вас дуже добрим товаришем. Німецька вівчарка не така вимоглива, як може здатися. Достатньо вичісувати її 1-2 рази на тиждень.</p>
-  <div class="cobaca">
-    <img src="https://images.prismic.io/doge/92572c35-ff62-4dc7-aa64-0771c775c5a8_a095e6a875f36b0cb52a3b0bbefcb2fa.jpg?auto=compress,format"/>
+html {
+  height: 90%;
+  width: 10%;
+}
+h1{
+  font-size: 50px ;
+  width: 700px;
+  box-shadow: 5px 5px 5px 5px black
+}
+body{
+background-image:linear-gradient(#09ec09, #06edfe, #09ec09) ;
+  font-size: 30px;
+}
+footer{
+  width: 700px;
+  color: black;
+}
+main{
+  width: 700px;
+  color: black;
+  background-image:linear-gradient(#09ec09, #06edfe, #09ec09) ;
+  font-size:30px;
 
-<h3> Де краще тримати німецьку вівчарку?</h3> 
-<p>Німецька вівчарка досить невибаглива до свого місця. В ідеалі для неї краще обладнати вольєр на вулиці або в господарській споруді, де немає протягів. У квартирі, особливо з маленькими дітьми, тримати такого вихованця буде проблематично.</p>
-  </div>
-    <h3>Скільки живуть вівчарки вдома?</h3>
-  <p>У домашніх умовах, якщо мають на увазі квартира, вівчарки живуть близько 12 років, проте це дуже приблизна цифра. На тривалість життя багато в чому впливають стан здоров'я, спадкові захворювання, якість активності, харчування та багато іншого.</p>
-    </body>
-</html>
+}
+img{
+width: 400px;
+height: 400px;
+
+
+}
+p{
+  border:2px dashed #ffffff ;
+  border-radius: 5px;
+  width: 700px;
+}
+h2{
+  color: #0a0a0a;
+  width: 700px;
+
+}
+
+h3{
+  color: #000000;
+  width: 700px;
+  font-size: 30px
+}
+.pic{
+  width: 500px;
+}
+.pic1{
+
+  font-size: 30px;
+  color:#1c1c1c;
+}
+header{
+  color:white;
+  font-size: 100px;
+  width: 700px;
+  height: 123px;
+  text-align:center;
+  padding-top:30;
+}
+p{
+  width: 500px;
+}
+.cobaca{
+  background-color: darkblue;
+  width: 600px;
+  hieght: 600px;
+  color: white;
+  border:20px solid #000000fff;
+  border-radius: 100px;
+  padding-top:40px;
+  padding-left:100px;
+  magin-right: 100px;
+}
+.d{
+  color: white;
+  width:700px ;
+  display:flex
+}
+.d a{
+  text-decoration:none;
+  border:2px solid #408ace;
+  border-radius:20px;
+  padding-top:10px;
+  margin: 40px;
+}
